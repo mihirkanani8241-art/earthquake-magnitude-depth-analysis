@@ -83,18 +83,18 @@ Median magnitudes increased across these groups in this sample (3.5, 4.2, 4.3). 
 
 ## Reproducing the analysis
 1. Open https://colab.research.google.com/ and create a notebook.
-2. Load the data using the API URL in the Data source section.
-3. Run the analysis and plotting cells.
+2. Open **[Earthquake Data Analysis with Python.ipynb](Earthquake%20Data%20Analysis%20with%20Python.ipynb)** in this repository, or use the USGS API URL above to download fresh data.
+3. Run the notebook cells in order.
 4. Export the summary table with:
 
 ```python
 summary.to_csv("earthquake_depth_summary.csv", index=False)
 ```
 
-## Recommended repository files
+## Repository files
 - `README.md` — project documentation
-- `earthquake_depth_summary.csv` — depth-group summary table
-- `earthquake_analysis.ipynb` — add your Colab notebook with code, plots, and explanations
+- `Earthquake Data Analysis with Python.ipynb` — code, outputs, and plots
+- `earthquake_depth_summary.csv` — depth-group counts and median magnitudes
 
 ## Project status
 **Beginner exploratory analysis completed.** Further validation and deeper geoscientific interpretation remain future improvements.
